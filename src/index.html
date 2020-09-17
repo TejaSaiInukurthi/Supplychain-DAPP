@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Supplychain Tracking Dapp</title>
+</head>
+<body>
+  <div id="band"></div>
+  <h2>Supplychain Tracking System</h2>
+  </br>
+    <h4> Secure Your Supplychain on Blockchain.</h4>
+  <div id="banner">
+   
+  </div>
+  <div style="text-align: justify;">
+    <label><b>Owner: 0x3ec290C5EdEb648cd7361a7157F249236625ed6f</b></label></br>
+    <label><b>Manufacturer: 0x6aF0Bc20D6Dc7ac5ecA4Ef96EfD08E19C7AcF91B</b></label></br>
+    <label><b>StockHolder:0xA9fD2B85207824bc994578585F0f739B51EE5256</b></label></br>
+    <label><b>Wholesaler:0x5143321B96121665E1C71D79a46b96DE0D388B61</b></label></br>
+    <label><b>Retailer:0xCb2d9A078bEd248D225EF3fCa8a717157A40158d</b></label></br>
+    <label><b>Customer:0xDa65aE48E1Ed31FaBDD786Da6Cf207c2E3bDA337</b></label></br>
+  
+  </div>
+   <div style="text-align: center;">
+   	<label><b>Create Asset:</b></label>
+<input type="text" id="assetName" placeholder=" Asset Name" required />
+<input type="text" id="assetDescription" placeholder="Description" required />
+<input type="text" id="assetUuid" placeholder="UUID" required />
+<button id="createAsset">Create Asset</button>
+</div>
+
+<div style="text-align: center;">
+<input id="button" type="button" value="To Manufacutrer:">
+<input type="text"  id="address" hidden placeholder="To address" required />
+<input type="text" id="Uuid" hidden placeholder="UUID" required />
+<button id="Manufacutrer">Transfer Asset</button>
+</div>
+<div style="text-align: center;">
+  <input id="b" type="button" value="To Stockholder:">
+  <input type="text"  id="addres" hidden placeholder="To address" required />
+  <input type="text" id="Uui" hidden placeholder="UUID" required />
+  <button id="Stockholder">Transfer Asset</button>
+  </div>
+  <div style="text-align: center;">
+    <input id="u" type="button" value="To Wholesaler:">
+    <input type="text"  id="addre" hidden placeholder="To address" required />
+    <input type="text" id="Uu" hidden placeholder="UUID" required />
+    <button id="Wholesaler">Transfer Asset</button>
+    </div>
+    <div style="text-align: center;">
+      <input id="t" type="button" value="To Retailer:">
+      <input type="text"  id="addr" hidden placeholder="To address" required />
+      <input type="text" id="uid" hidden placeholder="UUID" required />
+      <button id="Retailer">Transfer Asset</button>
+      </div>
+      <div style="text-align: center;">
+        <input id="tt" type="button" value="To user:">
+        <input type="text"  id="add" hidden placeholder="To address" required />
+        <input type="text" id="Uud" hidden placeholder="UUID" required />
+        <button id="user">Transfer Asset</button>
+        </div>
+        <br />
+        <br />
+<div style="text-align: center;">
+<label><b>Track Asset Details:</b></label>
+<input type="text" id="trackUuid" placeholder="UUID" required />
+<button id="trackAsset">Track Asset Details</button>
+</div>
+</br>
+<div id = "response" style="text-align: center;">
+<p><b>Name:</b><span id="name">??</span></p>
+<p><b>Description:</b><span id="description">??</span></p>
+<p><b>Owner:</b><span id="owner">??</span></p>
+<label><b>Product Current Location:</b></label>
+<p><b>Manufacturer:</b><span id="manufacutrer">??</span></p>
+<p><b>StockHolder:</b><span id="stockHolder">??</span></p>
+<p><b>Wholesaler:</b><span id="wholesaler">??</span></p>
+<p><b>Retailer:</b><span id="retailer">??</span></p>
+<p><b>User</b><span id="users">??</span></p>
+
+</div>
+<hr>
+<div id="log" style="text-align: center;"></div>
+ <link rel="stylesheet" href="index.css">
+<script src="js/web3.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src= "js/index.js"></script>
+</body>
+<footer style="text-align: right;">
+<h6>&copy B Shiva Sai Kumar </h6>
+</footer>
+</html>
